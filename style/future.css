@@ -1,0 +1,109 @@
+.future {
+    padding: 140px 0;
+}
+
+.future__wrap {
+    display: flex;
+    gap: 50px;
+    align-items: center;
+}
+
+.future__desc-block1-wlcome {
+    display: flex;
+    align-items: center;
+    background: #F4F4F4;
+    width: 250px;
+    height: 27px;
+    justify-content: center;
+    gap: 10px;
+}
+
+.future__desc-block1-wlcome-p {
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 27px;
+    letter-spacing: 0.36px;
+    color: #1C2752;
+}
+
+.future__desc-block1-about-title {
+    font-family: 'Mulish-Regular', sans-serif;
+    font-size: 45px;
+    font-weight: 400;
+    line-height: 59px;
+    letter-spacing: 0.36px;
+    text-align: left;
+    color: #1C2752;
+    margin: 22px 0 12px 0;
+}
+
+.future__desc-block1-about-p {
+    width: 552px;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 27px;
+    letter-spacing: 0.36px;
+    color: #7E7E7E;
+    margin-bottom: 10px;
+}
+
+.future__desc-block1-about-p2 {
+    width: 571px;
+    font-size: 17px;
+    font-weight: 400;
+    line-height: 27px;
+    letter-spacing: 0.36px;
+    color: #7E7E7E;
+    margin-bottom: 27px;
+}
+
+.future__desc-block2 {
+    display: flex;
+    align-items: center;
+    gap: 40px;
+}
+
+.future__desc-block2-years {
+    background: #F4F4F4;
+    width: 198px;
+    height: 220px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 16px;
+}
+
+.future__desc-block2-years-number {
+    font-family: 'Mulish-Regular', sans-serif;
+    font-size: 80px;
+    font-weight: 400;
+    line-height: 88px;
+    letter-spacing: 0.36px;
+    color: #FFB342;
+}
+
+.future__desc-block2-years-title {
+    width: 112px;
+    font-family: 'Mulish-Regular', sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 26px;
+    letter-spacing: 0.36px;
+    text-align: center;
+    color: #1C2752;
+}
+
+.future__desc-block2-info {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.future__desc-block2-info-p {
+    font-size: 17px;
+    font-weight: 400;
+    line-height: 27px;
+    letter-spacing: 0.36px;
+    color: #7E7E7E;
+}

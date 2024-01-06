@@ -1,0 +1,23 @@
+.header {
+    background: #F2F2F2;
+}
+
+.header__wrap {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 0;
+}
+
+.header__p {
+    font-size: 17px;
+    font-weight: 400;
+    line-height: 27px;
+    letter-spacing: 0.36px;
+    color: #1C2752;
+}
+.header__logos {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}

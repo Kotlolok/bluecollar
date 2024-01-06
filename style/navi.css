@@ -1,0 +1,43 @@
+.navi {
+    position: relative;
+}
+.navi__wrap {
+    position: absolute;
+    display: flex;
+    gap: 287px;
+    align-items: center;
+    background: #FFB342;
+    padding: 10px 10px 10px 45px;
+    top: -30px;
+}
+
+.navi__nav {
+    display: flex;
+    gap: 50px;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 30px;
+    letter-spacing: 0.36px;
+}
+
+.navi__nav-link {
+    color: #222222;
+    transition: .3s linear;
+}
+
+.navi__nav-link:hover {
+    color: #fff;
+}
+
+.navi-btn {
+    background: #1C2752;
+    color: #F4F4F4;
+    width: 298px;
+    height: 68px;
+    text-align: center;
+    padding: 20px 0;
+    font-size: 19px;
+    font-weight: 400;
+    line-height: 30px;
+    letter-spacing: 0.36px;
+}

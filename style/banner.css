@@ -1,0 +1,66 @@
+.banner {
+    background: url(../img/banner.png) no-repeat center/cover;
+    height: 813px;
+    max-width: 100%;
+    width: 100%;
+}
+
+.banner__wrap {
+    padding-top: 270px;
+}
+
+.banner__text {
+    background: #FFFFFF33;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    width: 662px;
+}
+
+.banner__text-img {
+    padding-left: 20px;
+}
+
+.banner-text-p {
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 27px;
+    letter-spacing: 0.36px;
+    color: #fff;
+    text-transform: capitalize;
+}
+
+.banner__title {
+    padding-top: 31px;
+    padding-bottom: 30px;
+    width: 712px;
+    font-family: 'Mulish-Regular', sans-serif;
+    font-size: 60px;
+    font-weight: 400;
+    line-height: 78px;
+    letter-spacing: 1.2000000476837158px;
+    text-align: left;
+    color: #fff;
+    text-transform: capitalize;
+}
+
+.banner-btn {
+    background: #FFB342;
+    width: 227px;
+    height: 68px;
+    font-family: 'Inter-Regular', sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 30px;
+    letter-spacing: 0.36px;
+    border: none;
+    outline: none;
+    color: #1C2752;
+    cursor: pointer;
+    transition: .3s linear;
+}
+
+.banner-btn:hover {
+    background: #1C2752;
+    color: #FFB342;
+}
