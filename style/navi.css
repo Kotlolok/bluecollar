@@ -1,6 +1,7 @@
 .navi {
     position: relative;
 }
+
 .navi__wrap {
     position: absolute;
     display: flex;
@@ -40,4 +41,45 @@
     font-weight: 400;
     line-height: 30px;
     letter-spacing: 0.36px;
+}
+
+@media screen and (max-width:1240px) {
+    .navi__wrap {
+        gap: 30px;
+        left: 50%;
+        transform: translateX(-50%);
+        text-align: center;
+        width: 100%;
+        margin: 0 auto;
+        justify-content: center;
+        padding: 10px 0;
+    }
+
+    .navi__nav {
+        gap: 30px;
+    }
+}
+
+@media screen and (max-width:1000px) {
+    .navi__wrap {
+        gap: 30px;
+        flex-direction: column;
+    }
+}
+
+@media screen and (max-width:550px) {
+    .navi__nav {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .navi__nav-link {
+        width: 110px;
+    }
+}
+
+@media screen and (max-width:330px) {
+    .navi-btn {
+        width: 100%;
+    }
 }

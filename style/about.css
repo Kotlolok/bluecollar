@@ -83,3 +83,17 @@
     letter-spacing: 0.36px;
     color: #7E7E7E;
 }
+
+@media screen and (max-width:850px) {
+    .about__desc {
+        flex-direction: column;
+        gap: 20px;
+    }
+}
+
+@media screen and (max-width:640px) {
+    .about__desc-text {
+        flex-direction: column;
+        gap: 20px;
+    }
+}

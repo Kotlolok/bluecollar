@@ -64,3 +64,28 @@
     background: #1C2752;
     color: #FFB342;
 }
+
+@media screen and (max-width:720px) {
+    .banner__title {
+        width: 450px;
+        font-size: 40px;
+    }
+    .banner__text {
+        width: 450px;
+    }
+}
+@media screen and (max-width:500px) {
+    .banner__title {
+        width: 450px;
+        font-size: 40px;
+    }
+    .banner__text {
+        width: 100%;
+    }
+}
+@media screen and (max-width:460px) {
+    .banner__title {
+        width: 300px;
+        font-size: 30px;
+    }
+}
